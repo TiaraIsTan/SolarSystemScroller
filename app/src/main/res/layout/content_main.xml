@@ -5,7 +5,7 @@
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:background="@drawable/galaxy_main"
+        android:background="@drawable/galaxy_last"
         android:orientation="vertical"
         android:scrollingCache="false"
         android:animationCache="false"
@@ -14,7 +14,7 @@
         <Space
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.24" />
+            android:layout_weight="0.04" />
 
         <ImageButton
             android:layout_width="119dp"
@@ -97,7 +97,7 @@
         <Space
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.03" />
+            android:layout_weight="0.12" />
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -114,7 +114,7 @@
         <Space
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.03" />
+            android:layout_weight="0.11" />
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -130,7 +130,7 @@
         <Space
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.03" />
+            android:layout_weight="0.11" />
 
         <ImageButton
             android:layout_width="wrap_content"
