@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/test_scroll"
+        android:orientation="vertical"
+        android:scrollingCache="false"
+        android:animationCache="false"
+        android:weightSum="1">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04" />
+
+        <ImageButton
+            android:layout_width="119dp"
+            android:layout_height="115dp"
+            android:id="@+id/neptune"
+            android:background="@drawable/neptune"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"
+            android:onClick="sendNeptune"
+        />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04" />
+
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:id="@+id/uranus"
+            android:background="@drawable/uranus_small"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"
+            android:onClick="sendUranus"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05" />
+
+        <ImageButton
+            android:layout_width="294dp"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/saturn"
+            android:background="@drawable/saturn_small"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"
+            android:onClick="sendSaturn"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06" />
+
+        <ImageButton
+            android:layout_width="203dp"
+            android:layout_height="210dp"
+            android:id="@+id/jupiter"
+            android:background="@drawable/jupiter_small"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"
+            android:onClick="sendJupiter"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/mars"
+            android:background="@drawable/mars_small"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"
+            android:onClick="sendMars"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/earth"
+            android:background="@drawable/earth_small"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"
+            android:onClick="sendEarth"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/venus"
+            android:background="@drawable/venus_small"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"
+            android:onClick="sendVenus"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/mercury"
+            android:background="@drawable/mercury_small"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"
+            android:onClick="sendMercury"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>
