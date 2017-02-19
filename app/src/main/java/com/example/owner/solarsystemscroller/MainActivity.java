@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void sendBack(View view) {
         // Do something in response to button click
-        getFragmentManager().popBackStackImmediate();
+        setContentView(R.layout.activity_main);
     }
 
     public void sendNeptune(View view) {
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         // Do something in response to button click
         setContentView(R.layout.uranus_fragment);
     }
-    /*
+
     public void sendSaturn(View view) {
         // Do something in response to button click
         setContentView(R.layout.saturn_fragment);
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
     public void sendMercury(View view) {
         // Do something in response to button click
         setContentView(R.layout.mercury_fragment);
-    }*/
+    }
 
 
 

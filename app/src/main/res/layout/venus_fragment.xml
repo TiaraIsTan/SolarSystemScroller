@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/galaxy_bg">
+    android:background="@drawable/galaxy_background">
 
     <TextView
-        android:text="hivenus"
+        android:text="@string/venus"
         android:textSize="20dp"
         android:textColor="#FFF"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:id="@+id/textView4"
         android:layout_weight="1" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/back_arrow"
+        android:onClick="sendBack"/>
 
 </LinearLayout>
